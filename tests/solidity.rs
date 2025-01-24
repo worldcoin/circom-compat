@@ -1,7 +1,7 @@
 use alloy::{providers::ProviderBuilder, sol};
-use ark_circom::{ethereum, CircomBuilder, CircomConfig};
 use ark_std::rand::thread_rng;
 use color_eyre::Result;
+use worldcoin_ark_circom::{ethereum, CircomBuilder, CircomConfig};
 
 use ark_bn254::{Bn254, Fr};
 use ark_crypto_primitives::snark::SNARK;

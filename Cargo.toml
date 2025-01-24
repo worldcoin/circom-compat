@@ -1,5 +1,5 @@
 [package]
-name = "ark-circom"
+name = "worldcoin-ark-circom"
 version = "0.2.0"
 edition = "2021"
 description = "Arkworks bindings to Circom's R1CS, for Groth16 Proof and Witness generation in Rust"
